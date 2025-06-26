@@ -20,6 +20,16 @@
       text-align: center;
     }
 
+    .profile-pic {
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 4px solid white;
+      margin-top: 1rem;
+      box-shadow: 0 0 10px rgba(0,0,0,0.15);
+    }
+
     main {
       padding: 2rem;
       max-width: 960px;
@@ -85,6 +95,7 @@
   <header>
     <h1>Vinoth T</h1>
     <p>Talent Acquisition Specialist – US & Canada IT Recruitment</p>
+    <img src="profile.jpg" alt="Vinoth T" class="profile-pic" />
   </header>
 
   <main>
